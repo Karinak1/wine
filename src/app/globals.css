@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(21, 60, 95);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-image: url('./fonts/Canada.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: monospace;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  padding: 20px;
+  margin-left: 32%;
+  margin-top: 30px;
+  border: 3px solid rgb(212, 208, 208);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: white 0px 5px 15px;
+  justify-content: center;
+}
+.border {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  width: 550px;
+  height: 700px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 29%;
+  margin-bottom: 1100px;
+  border: 3px solid rgb(212, 208, 208);
+  border-radius: 4px;
+  background-color: rgba(233, 228, 228, 0.6);
+  box-shadow: white 0px 5px 15px;
+}
+.nav {
+  background: black;
+  width: 100vw;
+  color: white;
+  display: flex;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px 0 3px;
+  gap: 20px;
+}
+
+.link {
+  padding: 10px 20px;
+  border: 1px white solid;
+  color: rgb(21, 60, 95);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  gap: 50px;
+}
