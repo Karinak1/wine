@@ -18,8 +18,6 @@ export default async function WineListPage({ searchParams }) {
         {posts.map((post) => (
           <li key={post.id}>
             <a href={`/post/${post.id}`}>{post.username}</a>
-            <a href={`/post/${post.id}`}>{post.type}</a>
-            <a href={`/post/${post.id}`}>{post.review}</a>
           </li>
         ))}
       </ul>
