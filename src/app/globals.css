@@ -7,10 +7,13 @@
 body {
   color: rgb(21, 60, 95);
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
+  /* height: 100%; */
+  /* width: 100%; */
   background-image: url('./fonts/Canada.jpg');
   background-position: cover;
   background-repeat: no-repeat;
+
+  /* background-size: contain; */
 }
 
 p {

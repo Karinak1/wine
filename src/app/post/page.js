@@ -1,4 +1,5 @@
 import pg from 'pg';
+import Link from 'next/link';
 
 //SHOW LIST OF ALL POSTS FROM DB
 export default async function PostOne() {
@@ -12,12 +13,12 @@ export default async function PostOne() {
       <h2>Posts</h2>
       {posts.map((post) => {
         return (
-          <div key={post.id}>
+          <Link key={post.id} href={`/post/${post.id}`}>
             <h3>{post.username}</h3>
             <h3>{post.type}</h3>
             <h3>{post.review}</h3>
             <button>delete</button>
-          </div>
+          </Link>
         );
       })}
     </div>
