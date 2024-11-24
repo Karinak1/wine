@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default async function WineListPage({ searchParams }) {
   // console.log('searchParams', searchParams);
-  const response = await fetch('http://localhost:3000/post');
+  const response = await fetch('http://localhost:3000/post/1');
   const posts = await response.json();
 
   if (searchParams.sort === 'desc') {
