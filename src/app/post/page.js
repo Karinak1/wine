@@ -17,7 +17,7 @@ export default async function PostOne() {
             <h3>{post.username}</h3>
             <h3>{post.type}</h3>
             <h3>{post.review}</h3>
-            <button>delete</button>
+            <button>show</button>
           </Link>
         );
       })}
